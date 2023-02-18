@@ -1,7 +1,3 @@
-public
-.cache
-node_modules
-*DS_Store
-*.env
-
-.idea/
+_site/
+_draft/
+.jekyll-cache/
