@@ -83,7 +83,7 @@ if (config.gatsby && !config.gatsby.trailingSlash) {
 }
 
 module.exports = {
-  pathPrefix: config.gatsby.pathPrefix,
+  pathPrefix: "/0-gitbook-us-stock-study-log",
   siteMetadata: {
     title: config.siteMetadata.title,
     description: config.siteMetadata.description,
