@@ -59,7 +59,7 @@
     "build": "gatsby build --prefix-paths",
     "dev": "gatsby develop -o",
     "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
-    "start": "npm run develop",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1 ",
