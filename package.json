@@ -56,14 +56,20 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "start": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
     "build": "gatsby build --prefix-paths",
+    "dev": "gatsby develop -o",
     "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
-    "lint": "eslint --fix \"src/**/*.{js,jsx}\"",
-    "develop": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
+    "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+
+    "lint": "eslint --fix \"src/**/*.{js,jsx}\"",
+    "develop": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gosgjung/0-gitbook-us-stock-study-log"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
