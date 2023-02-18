@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@v1
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
-          access-token: ${{ secrets.github-us-stock-study-log }}
+          access-token: ${{ secrets.gitbook_us_stock_study_log }}
           deploy-branch: gh-pages
           gatsby-args: --prefix-paths
