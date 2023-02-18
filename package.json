@@ -59,9 +59,10 @@
     "build": "gatsby build",
     "dev": "gatsby develop -o",
     "format": "prettier --write \"**/*.{js,jsx,css,json}\"",
-    "start": "npm run develop",
+    "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public" ,
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1 ",
 
     "lint": "eslint --fix \"**/*.{js,jsx}\"",
